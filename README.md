@@ -1,10 +1,10 @@
-# CHN50 4h OHLCV Stock index Historical Data — Free Sample
+# CHN50 4h OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-13_948_rows-blue)](https://getdata.finance/datasets/chn50) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/chn50)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-11_799_rows-blue)](https://getdata.finance/datasets/chn50) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/chn50)
 
 ### -> [**Download the full CHN50 dataset on getdata.finance**](https://getdata.finance/datasets/chn50)
 
-**CHN50 4h OHLCV stock index historical data** — ultra high-quality 4h OHLCV for **China 50**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**CHN50 4h OHLCV index historical data** — ultra high-quality 4h OHLCV for **FTSE China A50**. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,13 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 4h OHLCV** for **China 50** (Stock index)
-- **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
-- **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`4h`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/chn50) · **13,948** `1m` rows in the full archive
+- **Ultra high-quality 4h OHLCV** for **FTSE China A50** (Index)
+- **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
+- **Free evaluation sample** on GitHub (`4h`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/chn50) · **11,799** `4h` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `4h` sample updated in sync
 
-> **Sample on GitHub** · `CHN50_4h.csv` (13,948 rows, `2017-07-17` -> `2026-07-31`). **Full archive on [getdata.finance](https://getdata.finance/datasets/chn50)** — **13,948** `1m` rows (~1.12 MB), **11 timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W), `2017-07-17` -> `2026-07-31`.
+> **Sample on GitHub** · `CHN50_4h.csv` (240 rows, `2026-06-26` -> `2026-09-02`, 16.07 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/chn50)** — **11,799** `4h` rows (full `1m`: 2,681,069), **11 timeframes**, `2017-07-17` -> `2026-09-02`.
 
 ## Download sample
 
@@ -44,11 +43,11 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 | | **Sample (this repo)** | **Full dataset ([getdata.finance](https://getdata.finance/datasets/chn50))** |
 |---|--:|---|
-| Instrument | China 50 · Stock index | China 50 · Stock index |
+| Instrument | FTSE China A50 · Index | FTSE China A50 · Index |
 | Timeframes | `4h` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1m rows | 13,948 | **13,948** |
-| Size | 1.13 MB | ~1.12 MB |
-| Period | `2017-07-17` -> `2026-07-31` | `2017-07-17` -> `2026-07-31` |
+| 4h rows | 240 | **11,799** |
+| Size | 16.07 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/chn50) |
+| Period | `2026-06-26` -> `2026-09-02` | `2017-07-17` -> `2026-09-02` |
 | File | `CHN50_4h.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/chn50) |
 | Coverage report | — | [CHN50 coverage](https://getdata.finance/coverage/chn50) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -57,7 +56,7 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 This GitHub repository ships a **`4h` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/chn50)**, each full asset archive is delivered as a ZIP with **11 gap-free OHLCV timeframes** (one CSV per timeframe):
 
-**1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **4H** · **12H** · **1D** · **3D** · **1W**
+**1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W**
 
 GitHub = `4h` sample · [getdata.finance](https://getdata.finance/datasets/chn50) = all **11** timeframes above for the same instrument.
 
@@ -74,29 +73,29 @@ First and latest rows from the GitHub sample **`CHN50_4h.csv`**:
 
 **First rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2017-07-17T16:00:00+00:00 | 11668 | 11670 | 11665 | 11666 | 23 |
-| 2017-07-17T20:00:00+00:00 | 11666 | 11668 | 11665 | 11665 | 35 |
-| 2017-07-18T00:00:00+00:00 | 11665 | 11709 | 11584 | 11591 | 5369 |
-| 2017-07-18T04:00:00+00:00 | 11591 | 11658 | 11541 | 11643 | 2999 |
-| 2017-07-18T08:00:00+00:00 | 11643 | 11656 | 11641 | 11646 | 185 |
+| 2026-06-26T04:00:00+00:00 | 15226.58 | 15407.58 | 15216.07 | 15313.57 | 62146 |
+| 2026-06-26T08:00:00+00:00 | 15313.57 | 15353.06 | 15224.07 | 15337.08 | 7596 |
+| 2026-06-26T12:00:00+00:00 | 15337.08 | 15442.08 | 15309.56 | 15421.08 | 17539 |
+| 2026-06-26T16:00:00+00:00 | 15421.08 | 15433.08 | 15385.07 | 15404.58 | 5107 |
+| 2026-06-29T00:00:00+00:00 | 15404.58 | 15404.58 | 15095.05 | 15249.55 | 104835 |
 
 **Last rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-31T04:00:00+00:00 | 14841.05 | 14907.05 | 14805.03 | 14851.53 | 30989 |
-| 2026-07-31T08:00:00+00:00 | 14851.53 | 14872.03 | 14830.03 | 14857.05 | 4732 |
-| 2026-07-31T12:00:00+00:00 | 14857.05 | 14865.04 | 14770.05 | 14806.03 | 13502 |
-| 2026-07-31T16:00:00+00:00 | 14806.03 | 14837.55 | 14782.03 | 14828.05 | 5569 |
-| 2026-07-31T20:00:00+00:00 | 14828.05 | 14828.53 | 14811.03 | 14819.03 | 415 |
+| 2026-09-01T04:00:00+00:00 | 14765.01 | 14872.51 | 14756.5 | 14765.5 | 25301 |
+| 2026-09-01T08:00:00+00:00 | 14765.5 | 14766.01 | 14742 | 14761.49 | 2515 |
+| 2026-09-01T12:00:00+00:00 | 14761.49 | 14788.01 | 14746 | 14752.99 | 4292 |
+| 2026-09-01T16:00:00+00:00 | 14752.99 | 14752.99 | 14721.99 | 14735 | 2434 |
+| 2026-09-02T00:00:00+00:00 | 14735 | 14735 | 14542.99 | 14543.99 | 15707 |
 
 ## Schema
 
 | Column | Description |
 | --- | --- |
-| `datetime` | Bar open timestamp (UTC, ISO-8601). |
+| `time` | Bar open timestamp (UTC, ISO-8601). |
 | `open` | Opening price of the candlestick bar. |
 | `high` | Highest price during the bar. |
 | `low` | Lowest price during the bar. |
@@ -104,7 +103,7 @@ First and latest rows from the GitHub sample **`CHN50_4h.csv`**:
 | `volume` | Tick volume (number of price updates) during the bar. |
 
 ```text
-datetime,open,high,low,close,volume
+time,open,high,low,close,volume
 ```
 
 ## Code examples
@@ -114,11 +113,9 @@ datetime,open,high,low,close,volume
 ```python
 import pandas as pd
 
-df = pd.read_csv('CHN50_4h.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('CHN50_4h.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 print(df.describe())
-print(df.resample('1h').agg({'open': 'first', 'high': 'max',
-                              'low': 'min', 'close': 'last', 'volume': 'sum'}).head())
 ```
 
 ### backtrader
@@ -127,8 +124,8 @@ print(df.resample('1h').agg({'open': 'first', 'high': 'max',
 import backtrader as bt
 import pandas as pd
 
-df = pd.read_csv('CHN50_4h.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('CHN50_4h.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 
 class PandasData(bt.feeds.PandasData):
     params = (('datetime', None), ('open', 'open'), ('high', 'high'),
@@ -146,20 +143,20 @@ cerebro.adddata(PandasData(dataname=df))
 import pandas as pd
 import vectorbt as vbt
 
-df = pd.read_csv('CHN50_4h.csv', parse_dates=['datetime'])
-close = df.set_index('datetime')['close']
+df = pd.read_csv('CHN50_4h.csv', parse_dates=['time'])
+close = df.set_index('time')['close']
 fast, slow = vbt.MA.run(close, 10), vbt.MA.run(close, 50)
 entries = fast.ma_crossed_above(slow)
 exits = fast.ma_crossed_below(slow)
-pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1min')
+pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='4h')
 print(pf.stats())
 ```
 
 ## Download full data
 
-The complete **CHN50** archive on **[getdata.finance](https://getdata.finance/datasets/chn50)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **13,948** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **CHN50** archive on **[getdata.finance](https://getdata.finance/datasets/chn50)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **11,799** rows at `4h`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full CHN50 dataset on getdata.finance](https://getdata.finance/datasets/chn50)**
 
 ---
-*GetData · CHN50 4h OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/chn50) · 2026-08-05 UTC*
+*GetData · CHN50 4h OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/chn50)*
